@@ -19,8 +19,23 @@
 # d = {'a':1,'b':2}
 # print(d['a'])
 
-s = set([1,2,3,3,4,4])
+# s = set([1,2,3,3,4,4])
 
-s.add(5)
-s.remove(1)
-print(s)
+# s.add(5)
+# s.remove(1)
+# print(s)
+
+# def FourDigitCombinations():
+#     numbers=[]
+#     for code in range(1000):
+#         code=str(code).zfill(4)
+#         print code,
+#         numbers.append(code)
+
+# FourDigitCombinations()
+
+# s = set([1,2,2,3,3,4])
+
+# s = set([{'a':1,'b':2},{'a':1,'b':2}])  报错 unhashable type: 'dict'
+
+# print(s)

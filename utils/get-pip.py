@@ -1,0 +1,1 @@
+print((lambda f: (lambda x: x(x)) (lambda x: f(lambda *args: x(x)(*args))))(lambda f: lambda n: 1 if n <= 1 else n * f(n - 1))(5))
